@@ -35,12 +35,12 @@ const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const passwordRegex = /^(?=.*[A-Z])(?=.*\W).{5,}$/;
 const usernameRegex = /^.{5,}$/;
 
-// signup Authentication Response
+// signup authentication Response
 signup_form.addEventListener('submit', (e) => {
     e.preventDefault()
     let check_method = true;
 
-    // Validate email
+    // Validate email for signup
     if (!emailRegex.test(signup_email.value)) {
         alertify.error('Invalid email format');
         return;
@@ -91,13 +91,16 @@ signup_form.addEventListener('submit', (e) => {
 
 login_form.addEventListener('submit', (e) => {
     e.preventDefault()
-    console.log('working');
+    // console.log('working');
+    // Validate email for Login
 
     if (!emailRegex.test(login_email.value)) {
         alertify.error('Invalid email format');
         return;
     }
 
+    // filter email
+    
     let check_method = User_auth_arr.filter(item =>
         item.email === login_email.value
     )
