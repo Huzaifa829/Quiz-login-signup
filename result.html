@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./result.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;500;700;800&display=swap" rel="stylesheet">
+  <title>Results summary component</title>
+</head>
+<body>
+
+  <div class="Card-Container">
+
+    <div class="Main-Card">
+     <h3>Your Result</h3>
+     <span class="dot"><h1>76%</h1>
+     <h5 class="Tot-Num">of 100%</h5></span>
+  
+     <h2 id="grade">Great</h2>
+    </div>
+    
+    <div class="Result-DES">
+    <div class="Summary">
+      <h3 class="Sum-Top">Summary</h3>
+      <div class="Memory">
+        <p class="Memo">Total Question</p>
+        <p class="Memo-Score">10</span></p>
+      </div>
+      <div class="Reaction">
+        <p class="Reac">Worng Answer</p>
+        <p class="Reac-Score">80 <span class="Outof"> / 100 </span></p>
+      </div>
+    
+      <div class="Verbal">
+        <p class="Verb">Correct Answer</p>
+        <p class="Verb-Score">61 <span class="Outof"> / 100 </span></p>
+      </div>
+      
+    </div>
+ 
+    <div class="Continue-BTN">
+       <p class="Continue">Continue</p>
+    </div>
+    </div>
+
+  </div> 
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ <script src="./result.js"></script>
+</body>
+</html>

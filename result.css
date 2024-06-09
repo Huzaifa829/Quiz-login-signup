@@ -1,0 +1,263 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  }
+  
+  h1{
+    color: #fff;
+    font-size: 3.5em;
+    position: relative;
+    bottom: 3px;
+  }
+  
+  h2{
+    color: #fff;
+    position: relative;
+    top: 20px;
+    font-weight: 500;
+  } 
+  
+  h3{
+    position: relative;
+    top: 18px;
+    font-weight: normal;
+  }
+  
+  h5{
+    position: relative;
+    bottom: 40px;
+    opacity: 0.65;
+    font-weight: normal;
+  }
+  
+  .Card-Container{
+    background-color: #FFFEFF;
+    margin: 150px auto 0;
+    width: 580px;
+    height: 415px;
+    border: solid transparent;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .Main-Card{
+    background-image: linear-gradient(
+    215deg,
+    hsl(252deg 100% 67%) 0%,
+    hsl(251deg 97% 65%) 0%,
+    hsl(250deg 94% 64%) 0%,
+    hsl(249deg 91% 62%) 2%,
+    hsl(248deg 89% 61%) 13%,
+    hsl(247deg 87% 59%) 71%,
+    hsl(245deg 85% 57%) 83%,
+    hsl(243deg 83% 56%) 92%,
+    hsl(241deg 81% 54%) 100%);
+    width: 50%;
+    height: 410px; 
+    float:left;
+    border: solid transparent;
+    border-radius: 30px;
+    color: #D0C1FF;
+    box-shadow: 0 0 100px rgba(70, 39, 202, 1) inset;
+  }
+  
+  .dot {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 23px;
+    background-image: linear-gradient(
+    180deg,
+    hsl(255deg 72% 45%) 0%,
+    hsl(254deg 70% 47%) 11%,
+    hsl(254deg 68% 49%) 22%,
+    hsl(253deg 67% 50%) 33%,
+    hsl(252deg 70% 52%) 44%,
+    hsl(251deg 73% 53%) 56%,
+    hsl(250deg 76% 55%) 67%,
+    hsl(249deg 80% 56%) 78%,
+    hsl(248deg 83% 58%) 89%,
+    hsl(247deg 87% 60%) 100%);
+  }
+  
+  .Main-Para{
+    font-size: 13.59px;
+    font-weight: 400;
+    position: relative;
+    top: 15px;
+  }
+  
+  .Result-DES{
+    width: 50%;
+    float: right;
+    position: relative;
+    bottom: 413px;
+  }
+  
+  .Sum-Top{
+    font-weight: 900;
+    color: #0e0f0f;
+    opacity: 0.9;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+    right: 65px;
+    margin-top: 15px;
+  }
+  
+  .Reaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 217px;
+    height: 40px;
+    background-color: #FFF6F5;
+    border: solid transparent;
+    border-radius: 7px;
+    /* margin: 40px auto 15px; */
+    margin: 0 auto 15px;
+
+  }
+  
+  .Reac{
+    color: hsl(0, 100%, 67%);
+    /* position: relative;
+    bottom: 32px;
+    right: 35px; */
+    font-size: 16px;
+  }
+  
+  .Reac-img{
+    position: relative;
+    right: 87px;
+    top: 9px;
+  }
+  
+  .Reac-Score{
+    font-size: 15px;
+    /* position: relative;
+    bottom: 67px;
+    left: 68px; */
+  }
+  
+  .Memory{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 217px;
+    height: 40px;
+    background-color: #FFFBF2;
+    border: solid transparent;
+    border-radius: 7px;
+    /* margin: 0 auto 15px; */
+    margin: 40px auto 15px;
+
+  }
+  
+  .Memo{
+    color: hsl(39, 100%, 56%);
+    /* position: relative;
+    bottom: 32px;
+    right: 35px; */
+    font-size: 16px;
+  }
+  
+  .Memo-img{
+    position: relative;
+    right: 87px;
+    top: 9px;
+  }
+  
+  .Memo-Score{
+    font-size: 15px;
+    /* position: relative;
+    bottom: 67px;
+    left: 68px; */
+  }
+  
+  .Verbal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 217px;
+    height: 40px;
+    background-color: #F2FBFA;
+    border: solid transparent;
+    border-radius: 7px;
+    margin: 0 auto 15px;
+  }
+  
+  .Verb{
+    color: hsl(166, 100%, 37%);
+    /* position: relative;
+    bottom: 32px;
+    right: 35px; */
+    font-size: 16px;
+  }
+  
+  .Verb-img{
+    position: relative;
+    right: 87px;
+    top: 9px;
+  }
+  
+  .Verb-Score{
+    font-size: 15px;
+    /* position: relative;
+    bottom: 67px;
+    left: 68px; */
+  }
+  
+  .Visual{
+    width: 217px;
+    height: 40px;
+    background-color: #F3F3FD;
+    border: solid transparent;
+    border-radius: 7px;
+    margin: 0 auto 15px;
+  }
+  
+  .Vis{
+    color: hsl(234, 85%, 45%);
+    position: relative;
+    bottom: 32px;
+    right: 35px;
+    font-size: 16px;
+  }
+  
+  .Vis-img{
+    position: relative;
+    right: 87px;
+    top: 9px;
+  }
+  
+  .Vis-Score{
+    font-size: 15px;
+    position: relative;
+    bottom: 67px;
+    left: 68px;
+  }
+  
+  .Outof{
+    color: grey;
+  }
+  
+  .Continue-BTN{
+    color: #fff;
+    font-size: 15px;
+    width: 200px;
+    height: 35px;
+    border: solid transparent;
+    border-radius: 50px;
+    background-color: #303B59;
+    margin: 30px auto 0;
+  }
+  
+  .Continue{
+    margin-top: 7px;
+    cursor: pointer;
+  }

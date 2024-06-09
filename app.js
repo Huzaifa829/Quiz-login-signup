@@ -116,7 +116,14 @@ login_form.addEventListener('submit', (e) => {
         console.log(check_method[0].password);
         check_method[0].password === login_password.value
             ?
-            (alertify.success('Success login'), login_email.value = '', login_password.value = '')
+            (alertify.success('Success login'), 
+            login_email.value = '',
+             login_password.value = '',
+             localStorage.setItem('loginUser', JSON.stringify({
+                 condition:true,
+                 name:check_method[0].name
+             })),
+            window.location = 'quiz.html')
             :
             (alertify.error('Incorrect password'), login_password.value = '');
 
